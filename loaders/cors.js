@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 //whitelist: danh sach cac domain co the truy cap server
-const whitelist = ["https://homifyme.onrender.com"];
+const whitelist = ["https://homifyme-frontend.onrender.com"];
 //corsOptionsDelegate: ham kiem tra xem origin co trong whitelist khong
 var corsOptionsDelegate = (req, callback) => {
   var corsOptions;
