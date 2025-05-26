@@ -24,7 +24,7 @@ const connect = require("./loaders/DBConnect");
 //comment out the following line to use the local database
 var app = express();
 
-app.use(cors({ origin: "https://homifyme.onrender.com", credentials: true }));
+app.use(cors({ origin: "https://homifyme-frontend.onrender.com", credentials: true }));
 app.connect = connect;
 
 // view engine setup
